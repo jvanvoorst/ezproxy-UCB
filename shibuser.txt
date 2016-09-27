@@ -1,0 +1,4 @@
+Banner survey.htm
+If auth:uid ne ""; Set login:loguser = auth:uid
+Group +ILLiad
+If ! Any(auth:cuMemberOf, "LIB-EZPROXY"); Deny notallowed.htm
